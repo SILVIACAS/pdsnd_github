@@ -9,7 +9,8 @@ September 13, 2021
 Bikeshare
 
 ### Description
-Analyzing data from different cities, where we want to understand the users of the bike, the time they spend on the ride and the most common stations.
+Analyzing data from three different cities, we studied the behavior of the user of bike rental.
 
 ### Files used
-csv with data from the cities
+
+csv with data from the new york city, washington and chicago. 
