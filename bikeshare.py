@@ -143,14 +143,19 @@ def user_stats(df):
     print('Distribution of User Type:',user_count)
 
     # TO DO: Display counts of gender
-    if city is not 'washington':
+     if 'Gender' in df:
         gender_count = df['Gender'].value_counts()
-        print('Distribution of gender in the city:',gender_count)
+        print('Distribution of gender in Chicago:',gender_count)
     else:
         print('Gender does not appear in the dataframe')
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> refactoring
 
     # TO DO: Display earliest, most recent, and most common year of birth
-    if 'Birth Year' in df:
+    if city is not 'washington':
         recent_birth = df['Birth Year'].max()
         print('The most younger user was born in:',recent_birth)
     else:
