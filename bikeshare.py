@@ -148,7 +148,7 @@ def user_stats(df):
         print('Distribution of gender in Chicago:',gender_count)
     else:
         print('Gender does not appear in the dataframe')
-        
+
 
     # TO DO: Display earliest, most recent, and most common year of birth
     if city is not 'washington':
